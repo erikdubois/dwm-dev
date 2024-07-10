@@ -62,7 +62,7 @@ static const Launcher launchers[] = {
     { mintstick,     "虜" },
     { pavucontrol,   "墳" },
     { telegram,      "" },
-    { vivaldi,       "" },
+    { vivaldi,       "" }
 };
 
 static const Rule rules[] = {
