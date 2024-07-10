@@ -1,5 +1,5 @@
---- config.def.h	2024-07-10 11:02:13.005192538 +0200
-+++ config.def.custom.h	2024-07-10 11:01:49.132372688 +0200
+--- config.def.h	2024-07-10 12:15:38.305346263 +0200
++++ config.def.custom.h	2024-07-10 11:03:36.953379712 +0200
 @@ -3,12 +3,12 @@
  /* appearance */
  static const int vertpad            = 10;       /* vertical padding of bar */
@@ -29,15 +29,6 @@
  static const char col_gray1[]       = "#222222";
  static const char col_gray2[]       = "#444444";
  static const char col_gray3[]       = "#bbbbbb";
-@@ -61,7 +61,7 @@
- 
-     { discord,       "ﱲ" },
-     { firefox,       "" },
--    { brave,         "數" },
-+    { brave,           "數" },
-     { mintstick,     "虜" },
-     { pavucontrol,   "墳" },
-     { telegram,      "" },
 @@ -74,12 +74,13 @@
  	 *	WM_NAME(STRING) = title
  	 */
