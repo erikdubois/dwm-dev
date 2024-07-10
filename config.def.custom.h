@@ -50,7 +50,7 @@ static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 /* launcher commands (They must be NULL terminated) */
 static const char* firefox[] = { "firefox", NULL };
 static const char* vivaldi[] = { "vivaldi", NULL };
-static const char* brave[] = { "brave", "open" , "brave", NULL };
+static const char* brave[] = { "brave", NULL };
 static const char* discord[] = { "discord", "open" , "discord", NULL };
 static const char* telegram[] = { "telegram-desktop", "open" , "telegram-desktop", NULL };
 static const char* mintstick[] = { "mintstick", "-m", "iso", NULL};
