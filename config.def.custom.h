@@ -183,30 +183,30 @@ static const Key keys[] = {
     { MODKEY|ControlMask,               XK_F10,      setlayout,      {.v = &layouts[0]} },
     { MODKEY|ControlMask,               XK_F11,      setlayout,      {.v = &layouts[0]} },
     { MODKEY|ControlMask,               XK_F12,      setlayout,      {.v = &layouts[0]} },
-	{ MODKEY|ControlMask,			XK_p,	   cyclelayout,    {.i = -1 } },
-	{ MODKEY|ControlMask,           XK_m, 	   cyclelayout,    {.i = +1 } },
-	{ MODKEY,                       XK_space,  setlayout,      {0} },
-	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
-	{ MODKEY,             			XK_f,      togglefullscr,  {0} },
-	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
-	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
-	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
-	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
-	{ MODKEY|ShiftMask,             XK_Left,   tagmon,         {.i = -1 } },
-	{ MODKEY|ShiftMask,             XK_Right,  tagmon,         {.i = +1 } },
-	TAGKEYS(                        XK_ampersand,              0)
-	TAGKEYS(                        XK_eacute,                 1)
-	TAGKEYS(                        XK_quotedbl,               2)
-	TAGKEYS(                        XK_apostrophe,             3)
-	TAGKEYS(                        XK_parenleft,              4)
-	TAGKEYS(                        XK_section,                5)
-	TAGKEYS(                        XK_egrave,                 6)
-	TAGKEYS(                        XK_exclam,                 7)
-	TAGKEYS(                        XK_ccedilla,               8)
-    { MODKEY|ShiftMask,             XK_r,      self_restart,   {0} },
-	{ MODKEY|ShiftMask,             XK_q,      killclient,     {0} },
-	{ MODKEY,                       XK_q,      killclient,     {0} },
-	{ ControlMask|Mod1Mask,         XK_Delete, quit,           {0} },
+	{ MODKEY|ControlMask,				XK_p,	   cyclelayout,    {.i = -1 } },
+	{ MODKEY|ControlMask,           	XK_m, 	   cyclelayout,    {.i = +1 } },
+	{ MODKEY,                       	XK_space,  setlayout,      {0} },
+	{ MODKEY|ShiftMask,             	XK_space,  togglefloating, {0} },
+	{ MODKEY,             				XK_f,      togglefullscr,  {0} },
+	{ MODKEY,                       	XK_0,      view,           {.ui = ~0 } },
+	{ MODKEY|ShiftMask,             	XK_0,      tag,            {.ui = ~0 } },
+	{ MODKEY,                       	XK_comma,  focusmon,       {.i = -1 } },
+	{ MODKEY,                       	XK_period, focusmon,       {.i = +1 } },
+	{ MODKEY|ShiftMask,             	XK_Left,   tagmon,         {.i = -1 } },
+	{ MODKEY|ShiftMask,             	XK_Right,  tagmon,         {.i = +1 } },
+	TAGKEYS(                        	XK_ampersand,              0)
+	TAGKEYS(                        	XK_eacute,                 1)
+	TAGKEYS(                        	XK_quotedbl,               2)
+	TAGKEYS(                        	XK_apostrophe,             3)
+	TAGKEYS(                        	XK_parenleft,              4)
+	TAGKEYS(                        	XK_section,                5)
+	TAGKEYS(                        	XK_egrave,                 6)
+	TAGKEYS(                        	XK_exclam,                 7)
+	TAGKEYS(                        	XK_ccedilla,               8)
+    { MODKEY|ShiftMask,             	XK_r,      self_restart,   {0} },
+	{ MODKEY|ShiftMask,             	XK_q,      killclient,     {0} },
+	{ MODKEY,                       	XK_q,      killclient,     {0} },
+	{ ControlMask|Mod1Mask,         	XK_Delete, quit,           {0} },
 };
 
 /* button definitions */
