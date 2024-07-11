@@ -61,7 +61,7 @@ static const Launcher launchers[] = {
 
     { discord,       "ﱲ" },
     { firefox,       "" },
-    { brave,         "" },
+    { brave,         "數" },
     { mintstick,     "虜" },
     { pavucontrol,   "墳" },
     { telegram,      "" },
