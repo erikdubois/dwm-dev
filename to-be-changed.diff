@@ -1,5 +1,5 @@
---- config.def.h	2024-07-11 13:53:47.125105634 +0200
-+++ config.def.custom.h	2024-07-11 12:16:13.857679014 +0200
+--- config.def.h	2024-07-13 05:55:29.276653200 +0200
++++ config.def.custom.h	2024-07-13 04:47:15.687311906 +0200
 @@ -3,12 +3,12 @@
  /* appearance */
  static const int vertpad            = 10;       /* vertical padding of bar */
@@ -29,20 +29,11 @@
  static const char col_gray1[]       = "#222222";
  static const char col_gray2[]       = "#444444";
  static const char col_gray3[]       = "#bbbbbb";
-@@ -39,33 +39,30 @@
- };
- 
- /* tagging */
--static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
-+//static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
- //static char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" };
- //static char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X" };
- //static char *tags[] = { "", "", "", "", "", "", "", "", "", "" };
+@@ -46,26 +46,23 @@
  //static char *tags[] = { "Web", "Chat", "Edit", "Meld", "Vb", "Mail", "Video", "Image", "Files", "Music" };
--//static char *tags[] = {"一", "二", "三", "四", "五", "六", "七", "八", "九", "十"};
--
-+static char *tags[] = {"一", "二", "三", "四", "五", "六", "七", "八", "九", "十"};
+ //static char *tags[] = {"一", "二", "三", "四", "五", "六", "七", "八", "九", "十"};
  
+-
  /* launcher commands (They must be NULL terminated) */
 -static const char* firefox[] = { "firefox", NULL };
 -static const char* vivaldi[] = { "vivaldi", NULL };
